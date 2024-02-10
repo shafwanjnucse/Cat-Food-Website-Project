@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Honk", system-ui;
+  font-weight: 350px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  background-color: brown;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+  font-size: 30px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid black;
+  transition: 0.2s ease-in;
+}
+
+.intro-section {
+  background-image: url(img/cat1.png);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 20px 0;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.intro-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.intro-section h1 {
+  font-size: 90px;
+  color: black;
+}
+
+.intro-section h3 {
+  font-size: 30px;
+  color: black;
+}
+
+.food-section .container h1 {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.food-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.food-section .food-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-section .food-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.food-item img {
+  width: 250px;
+  height: auto;
+}
+
+.food-item p {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.orderr .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.orderr .order-section h2 {
+  text-align: center;
+  font-size: 60px;
+}
+.orderr .order-section {
+  margin-top: 50px;
+}
+
+.orderr .order-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.orderr .form-group {
+  margin-bottom: 20px;
+}
+
+.orderr .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.orderr .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.orderr .submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.orderr .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.footer-lower {
+  font-size: 50px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
